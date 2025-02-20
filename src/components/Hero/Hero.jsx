@@ -40,13 +40,13 @@ function Hero({handleOrderPopup}) {
     return (
         <div className='relative z-10 overflow-hidden min-h-[650px] md:min-h-[550px] bg-gray-100 dark:bg-gray-950 dark:text-white duration-200 flex justify-center items-center'>
             {/* Background Pattern */}
-            <div className='w-[700px] h-[700px] bg-[var(--color-primary)]/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z-9'></div>
+            <div className='size-[640px] md:size-[680px] bg-[var(--color-primary)]/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z-9'></div>
             {/* Hero Section */}
             <div className="container pb-8">
                 <Slider {...settings}>
                     {ImageList.map(({ id, img, title, description }) => (
                         <div key={id}>
-                            <div className='grid grid-cols-2'>
+                            <div className='flex flex-col-reverse md:grid md:grid-cols-2'>
                                 {/* Text Content Section  */}
                                 <div className='flex flex-col justify-center gap-4 pt-0 md:pt-12 order-1 md:order-2 text-left md:text-center'>
                                     <h1

@@ -46,7 +46,7 @@ const DropdownLinks = [
 ]
 function Navbar({handleOrderPopup}) {
     return (
-        <div className='shadow-md bg-white dark:bg-gray-900  dark:text-white duration-200 relative z-40'>
+        <div className='sticky top-0 shadow-md bg-white dark:bg-gray-900  dark:text-white duration-200 relative z-40'>
             {/* Upper Nav */}
             <div className="bg-[var(--color-primary)]/40 py-2">
                 <div className='container flex justify-between items-center'>

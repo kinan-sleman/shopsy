@@ -27,12 +27,12 @@ const DetailsData = [
 ]
 function Banner() {
     return (
-        <div className='min-h-[550px] flex justify-center items-center py-0 md:py-12 mb-3 md:mb-0'>
+        <div className='min-h-[550px] flex justify-center items-center py-4 md:py-12 mb-3 md:mb-0'>
             <div className="container">
-                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10 lg:place-items-center">
+                <div className="flex flex-col md:grid md:grid-cols-1 lg:grid-cols-2 gap-10 lg:place-items-center">
                     {/* Image Section */}
                     <div data-aos="zoom-in">
-                        <img className='max-w-[400px] h-[350px] object-cover drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]' src={BannerImg} alt="" />
+                        <img className='md:max-w-[400px] h-[350px] object-cover drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]' src={BannerImg} alt="" />
                     </div>
                     {/* Text Details Section */}
                     <div className='flex flex-col justify-center gap-6 pt-0 '>

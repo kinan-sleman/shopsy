@@ -65,7 +65,7 @@ function Products({handleOrderPopup}) {
                 <img
                   src={img}
                   alt=""
-                  className="h-[220px] w-[150px] object-cover rounded-md"
+                  className="md:h-[220px] md:w-[150px] object-cover rounded-md"
                 />
                 <div>
                   <h3 className='font-semibold'>{title}</h3>
