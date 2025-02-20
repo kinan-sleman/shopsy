@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+:root {
+  --color-primary: #fea928;
+  --color-secondary: #ed8900;
+  --padding-default: 1rem;
+  --padding-sm: 3rem;
+}
+
+@layer components {
+  .container {
+    padding: 0 var(--padding-default);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+  }
+}
